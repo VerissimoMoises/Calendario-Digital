@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,500&family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(180deg, #e4731c, #df3f22, #415b96);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.relogio, .calendario {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 600px;
+    background: transparent;
+    border-radius: 15px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+    margin: 15px;
+}
+
+.relogio div, .calendario div {
+    height: 170px;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(5, 5, 5, .9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+.relogio span, .calendario span {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.relogio span.tempo, .calendario span.data {
+    font-size: 13px;
+}
