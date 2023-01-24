@@ -25,9 +25,9 @@ const relogio = setInterval(function time() {
 
     if (hora >= 5 && hora < 8) {
         document.body.style.background = 'linear-gradient(0deg, #e4731c, #df3f22, #415b96)';
-    } else if (hora >= 8 && hora <= 16) {
+    } else if (hora >= 8 && hora < 16) {
         document.body.style.background = 'linear-gradient(50deg, #3498db, #819dda, #e6b458)';
-    } else if (hora > 16 && hora <= 19) {
+    } else if (hora >= 16 && hora <= 19) {
         document.body.style.background = 'linear-gradient(180deg, #e4731c, #df3f22, #415b96)';
     } else {
         document.body.style.background = 'linear-gradient(#5d4366, #445b8d, #160821)';
